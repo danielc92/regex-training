@@ -1,7 +1,7 @@
 
-const solve = (s: string)  => {
-    return !/\d+/.test(s)
+const solve = (s: string) => {
+  return !/\d+/.test(s)
 }
 
-export {solve}
+export { solve }
 

@@ -1,6 +1,6 @@
 
-const solve = (s: string)  => {
-    return /\d+ files? found\?/.test(s)
+const solve = (s: string) => {
+  return /\d+ files? found\?/.test(s)
 }
 
-export {solve}
+export { solve }

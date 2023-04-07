@@ -1,6 +1,6 @@
 
-const solve = (s: string)  => {
-    
+const solve = (s: string) => {
+
 }
 
-export {solve}
+export { solve }

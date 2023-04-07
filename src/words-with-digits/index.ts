@@ -1,6 +1,6 @@
 
-const solve = (s: string)  => {
-    return /[a-z\s\/\d]+/.test(s)   
+const solve = (s: string) => {
+  return /[a-z\s\/\d]+/.test(s)
 }
 
-export {solve}
+export { solve }
