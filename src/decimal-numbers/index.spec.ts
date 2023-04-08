@@ -79,6 +79,10 @@ it.each(
       output: false
     },
     {
+      input: '00003123.23',
+      output: false
+    },
+    {
       input: '9999999999',
       output: false
     },
