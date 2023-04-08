@@ -2,55 +2,61 @@ import { solve } from '.'
 
 it.each(
   [
-
     {
-      input: '4153111106003389',
+      input: 'aged',
       output: true
     },
     {
-      input: '4485477501437269038',
+      input: 'orphan',
       output: true
     },
     {
-      input: '4485477601437269031',
+      input: 'ordered',
       output: true
     },
     {
-      input: '448547760143726901',
-      output: false
-    },
-    {
-      input: '',
-      output: false
-    },
-    {
-      input: 'card',
-      output: false
-    },
-    {
-      input: '9280074325629846',
-      output: false
-    },
-    {
-      input: '4280074325629846',
+      input: 'order',
       output: true
     },
-
     {
-      input: '7280074325629846',
+      input: 'elephant',
+      output: true
+    },
+    {
+      input: 'underling',
+      output: true
+    },
+    {
+      input: 'unicorn',
+      output: true
+    },
+    {
+      input: 'trophy',
       output: false
     },
     {
-      input: '123',
+      input: 'border',
       output: false
     },
     {
-      input: '448547750143726903f',
+      input: 'orph4an',
       output: false
     },
 
     {
-      input: '44854775 1437 6903',
+      input: 'apple',
+      output: false
+    },
+    {
+      input: 'bad',
+      output: false
+    },
+    {
+      input: 'sad',
+      output: false
+    },
+    {
+      input: 'made',
       output: false
     }
 
