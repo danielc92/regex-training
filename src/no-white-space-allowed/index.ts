@@ -1,6 +1,6 @@
 
 const solve = (s: string) => {
-  return /^\s*$/.test(s)
+  return /^\S*$/.test(s)
 }
 
 export { solve }

@@ -6,24 +6,42 @@ it.each(
       input: '',
       output: true
     },
+
+    {
+      input: 'te st',
+      output: false
+    },
     {
       input: ' ',
-      output: true
+      output: false
     },
     {
       input: '  ',
-      output: true
+      output: false
     },
     {
       input: '      ',
-      output: true
+      output: false
     },
     {
       input: '                   ',
+      output: false
+    },
+
+    {
+      input: 'nospaces',
       output: true
     },
     {
-      input: 'test',
+      input: 's p a c e s',
+      output: false
+    },
+    {
+      input: ' test',
+      output: false
+    },
+    {
+      input: 'test   ',
       output: false
     },
     {
@@ -31,7 +49,7 @@ it.each(
       output: false
     },
     {
-      input: ' test',
+      input: ' test ',
       output: false
     }
   ]
